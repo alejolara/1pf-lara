@@ -17,11 +17,11 @@ export class AlumnoFormDialogComponent {
   ]);
 
   apellidoControl = new FormControl<string | null>(null, [Validators.required]);
-  dniControl = new FormControl<string | null>(null, [Validators.required]);
+  dniControl = new FormControl<Number | null>(null, [Validators.required]);
   cursoControl = new FormControl<string | null>(null, [Validators.required]);
-  parcial_1Control = new FormControl<string | null>(null, [Validators.required,Validators.min(1),Validators.max(10)]);
-  parcial_2Control = new FormControl<string | null>(null, [Validators.required,Validators.min(1),Validators.max(10)]);
-  nota_finalControl = new FormControl<string | null>(null, [Validators.min(1),Validators.max(10)]);
+  parcial_1Control = new FormControl<Number | null>(null, [Validators.required,Validators.min(1),Validators.max(10)]);
+  parcial_2Control = new FormControl<Number | null>(null, [Validators.required,Validators.min(1),Validators.max(10)]);
+  nota_finalControl = new FormControl<Number | null>(null, [Validators.min(1),Validators.max(10)]);
 
   alumnoForm = new FormGroup({
     nombre: this.nombreControl,

@@ -2,9 +2,9 @@ export interface Alumno {
   id: number;
   nombre: string;
   apellido: string;
-  dni: string;
+  dni: number;
   curso: string;
-  parcial_1: string;
-  parcial_2: string;
-  nota_final: string;
+  parcial_1: number;
+  parcial_2: number;
+  nota_final: number;
 }

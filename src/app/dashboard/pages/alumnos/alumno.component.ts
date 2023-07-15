@@ -8,101 +8,101 @@ const ELEMENT_DATA: Alumno[] = [
       id: 1,
       nombre: 'Juan',
       apellido: 'Pérez',
-      dni: '12345678',
+      dni: 12345678,
       curso: 'Ingeniería',
-      parcial_1: "8",
-      parcial_2: "7",
-      nota_final: "9"
+      parcial_1: 8,
+      parcial_2: 7,
+      nota_final: 9
     },
     {
       id: 2,
       nombre: 'María',
       apellido: 'González',
-      dni: '87654321',
+      dni: 87654321,
       curso: 'Arquitectura',
-      parcial_1: "6",
-      parcial_2: "2",
-      nota_final: "0"
+      parcial_1: 6,
+      parcial_2: 2,
+      nota_final: 0
     },
     {
       id: 3,
       nombre: 'Carlos',
       apellido: 'López',
-      dni: '56789012',
+      dni: 56789012,
       curso: 'Medicina',
-      parcial_1: "9",
-      parcial_2: "8",
-      nota_final: "10"
+      parcial_1: 9,
+      parcial_2: 8,
+      nota_final: 10
     },
     {
       id: 4,
       nombre: 'Ana',
       apellido: 'Rodríguez',
-      dni: '65432109',
+      dni: 65432109,
       curso: 'Derecho',
-      parcial_1: "7",
-      parcial_2: "6",
-      nota_final: "8"
+      parcial_1: 7,
+      parcial_2: 6,
+      nota_final: 8
     },
     {
       id: 5,
       nombre: 'Pedro',
       apellido: 'Martínez',
-      dni: '43210987',
+      dni: 43210987,
       curso: 'Economía',
-      parcial_1: "5",
-      parcial_2: "5",
-      nota_final: "6"
+      parcial_1: 5,
+      parcial_2: 5,
+      nota_final: 6
     },
     {
       id: 6,
       nombre: 'Laura',
       apellido: 'López',
-      dni: '98765432',
+      dni: 98765432,
       curso: 'Ingeniería',
-      parcial_1: "9",
-      parcial_2: "7",
-      nota_final: "2"
+      parcial_1: 9,
+      parcial_2: 7,
+      nota_final: 2
     },
     {
       id: 7,
       nombre: 'Miguel',
       apellido: 'Gómez',
-      dni: '21098765',
+      dni: 21098765,
       curso: 'Medicina',
-      parcial_1: "8",
-      parcial_2: "9",
-      nota_final: "3"
+      parcial_1: 8,
+      parcial_2: 9,
+      nota_final: 3
     },
     {
       id: 8,
       nombre: 'Sofía',
       apellido: 'Fernández',
-      dni: '89012345',
+      dni: 89012345,
       curso: 'Derecho',
-      parcial_1: "7",
-      parcial_2: "6",
-      nota_final: "8"
+      parcial_1: 7,
+      parcial_2: 6,
+      nota_final: 8
     },
     {
       id: 9,
       nombre: 'Diego',
       apellido: 'Torres',
-      dni: '32109876',
+      dni: 32109876,
       curso: 'Arquitectura',
-      parcial_1: "9",
-      parcial_2: "8",
-      nota_final: "1"
+      parcial_1: 9,
+      parcial_2: 8,
+      nota_final: 1
     },
     {
       id: 10,
       nombre: 'Carolina',
       apellido: 'Silva',
-      dni: '45678901',
+      dni: 678901,
       curso: 'Economía',
-      parcial_1: "6",
-      parcial_2: "7",
-      nota_final: "8"
+      parcial_1: 6,
+      parcial_2: 7,
+      nota_final: 8
     }
   
 ];
