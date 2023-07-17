@@ -2,7 +2,7 @@ import { Component, Inject } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { noHomeroValidator } from 'src/app/shared/utils/form-validators';
-import { Alumno } from '../../models';
+import { Alumno } from '../../interface/alumno.interface';
 
 @Component({
   selector: 'app-alumno-form-dialog',

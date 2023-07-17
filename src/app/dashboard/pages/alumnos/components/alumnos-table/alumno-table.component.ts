@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { Alumno } from '../../models';
+import { Alumno } from '../../interface/alumno.interface';
 
 
 @Component({

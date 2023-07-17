@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { AlumnoFormDialogComponent } from './components/alumno-form-dialog/alumno-form-dialog.component';
-import { Alumno } from './models';
+import { Alumno } from './interface/alumno.interface';
 
 const ELEMENT_DATA: Alumno[] = [
     {
